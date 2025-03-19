@@ -5,5 +5,10 @@ def getAnswer():
     return user_input
 
 
+def printQuestion(question):
+    print(question)
+
+
 print("Hello world!")
+printQuestion("What is the size of the sun?")
 print(getAnswer())
