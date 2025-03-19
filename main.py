@@ -9,6 +9,12 @@ def printQuestion(question):
     print(question)
 
 
-print("Hello world!")
-printQuestion("What is the size of the sun?")
-print(getAnswer())
+def main():
+    print("Hello world!")
+    printQuestion("What is the size of the sun?")
+    print(getAnswer())
+
+
+
+if __name__ == "__main__":
+    main()
